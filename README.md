@@ -10,7 +10,7 @@ faker.jsとjson-server.jsを使用して大量のモックデータを作成す�
 npm i
 
 // 変更反映
-npm run-script build
+npm run build
 
 // APIサーバ起動
 json-server --watch db.json --port 3002
