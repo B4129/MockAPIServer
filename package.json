@@ -1,0 +1,11 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "dependencies": {
+    "faker": "latest"
+  },
+  "scripts": {
+    "build": "node FakeDataGenerator.js > db.json",
+    "serve": "json-server --watch db.json --port 3002"
+  }
+}
